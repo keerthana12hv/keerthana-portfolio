@@ -12,6 +12,7 @@ I’m currently pursuing B.E. in Information Science and Engineering. I love wor
 - Hosted on GitHub Pages
 
 ## 🗂️ Project Structure
+```
 keerthana-portfolio/
 │
 ├── index.html # Main HTML page
@@ -19,8 +20,7 @@ keerthana-portfolio/
 │ ├── css/ # Stylesheets
 │ └── js/ # JavaScript 
 ├── README.md # Project documentation
-
-
+```
 ## 📝 Featured Project
 
 ### 🗒️ Notepad App
