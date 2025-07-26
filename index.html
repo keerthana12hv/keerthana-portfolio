@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>J Keerthana | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0f0f0f;
+      color: white;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #111;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: 400;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00ffd5;
+    }
+    section {
+      padding: 4rem 2rem;
+    }
+    .hero {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #00ffd5;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      color: #ccc;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.7rem 1.2rem;
+      background-color: #00ffd5;
+      color: black;
+      font-weight: 600;
+      border: none;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #00c8aa;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background-color: #1a1a1a;
+      padding: 1.5rem;
+      border-radius: 12px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 255, 213, 0.2);
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #00ffd5;
+      font-weight: bold;
+      text-decoration: underline;
+      transition: color 0.3s;
+    }
+    .card a:hover {
+      color: #00c8aa;
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+    }
+    .contact i {
+      font-size: 1.8rem;
+      margin-right: 1rem;
+      color: #00ffd5;
+    }
+    .contact a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+      color: #00ffd5;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #111;
+      color: #aaa;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #00ffd5;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: disc;
+      margin-left: 2rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>J Keerthana</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Software Developer in Progress</h1>
+    <p>Exploring Java, DSA & Web Development</p>
+    <a href="/J-Keerthana-Resume.pdf" class="btn" target="_blank">Download Resume</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am currently pursuing B.E. in Information Science and Engineering from Bangalore Institute of Technology. Passionate about Java programming, Data Structures, and building real-world applications like Notepad using Java Swing. I love learning new technologies and practicing through projects.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="card">Java</div>
+      <div class="card">DSA (Basic)</div>
+      <div class="card">C</div>
+      <div class="card">Python</div>
+      <div class="card">HTML</div>
+      <div class="card">Oracle SQL</div>
+      <div class="card">Git</div>
+      <div class="card">VS Code</div>
+      <div class="card">Eclipse</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Notepad Text Editor</h3>
+        <p>Java Swing-based desktop app to write, edit, and save text files. Built with Java and GUI components using Swing.</p>
+        <a href="https://github.com/keerthana12hv/NotepadProject" target="_blank">🔗 View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.E. (ISE)</strong>, Bangalore Institute of Technology, VTU — CGPA: 8.5 (2023–2027)</li>
+      <li><strong>12th</strong>, Sri Chaitanya PU College — 84.1% (2022–2023)</li>
+      <li><strong>10th</strong>, Dream World School — 80.6% (2020–2021)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <div class="contact-item">
+        <i class="fab fa-github"></i><a href="https://github.com/keerthana12hv" target="_blank">github.com/keerthana12hv</a>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i><a href="mailto:jkeerthana925@gmail.com">jkeerthana925@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 J Keerthana. All rights reserved.</p>
+  </footer>
+</body>
+</html>
